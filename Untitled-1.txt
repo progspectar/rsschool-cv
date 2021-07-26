@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Fedor Odintsov | rsschool-cv</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Fedor Odintsov" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository for CV" />
+<meta property="og:description" content="Repository for CV" />
+<link rel="canonical" href="https://fodin.github.io/rsschool-cv/cv.html" />
+<meta property="og:url" content="https://fodin.github.io/rsschool-cv/cv.html" />
+<meta property="og:site_name" content="rsschool-cv" />
+<script type="application/ld+json">
+{"@type":"WebPage","description":"Repository for CV","url":"https://fodin.github.io/rsschool-cv/cv.html","headline":"Fedor Odintsov","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/rsschool-cv/assets/css/style.css?v=4fcb5a25a9377e25f54861b97e72b6eab4fb8aaa">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://fodin.github.io/rsschool-cv/">rsschool-cv</a></h1>
+      
+
+      <h1 id="fedor-odintsov">Fedor Odintsov</h1>
+
+<h2 id="contacts">Contacts:</h2>
+<ul>
+  <li><strong><em>E-mail:</em></strong> fadmin@list.ru</li>
+  <li><strong><em>Telegram:</em></strong> @Fodinsoft</li>
+</ul>
+
+<h2 id="objectives">Objectives:</h2>
+<p>I want to become a web-developer. I have analytical mind-set, understaning of progamming and I feel the beauty of a code.</p>
+
+<h2 id="skills">Skills:</h2>
+<p><strong>I experienced in:</strong> Basic, Assembler (Z-80, PDP-11), C, C++, Pascal, VBA, Python, Lua, JS, Bash, SQL, HTML, CSS.</p>
+
+<p><strong>Frameworks:</strong> jQuery, Bootstrap.</p>
+
+<h2 id="code-example">Code example:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	export class ComplexNumber {
+		constructor(real, imag = 0){
+			[this.real, this.imag] = [real, imag];
+		}
+
+		add(n){
+			return new ComplexNumber(this.real + n.real, this.imag + n.imag);
+		}
+
+		sub(n){
+			return this.add(new ComplexNumber(-n.real, -n.imag));
+		}
+
+		mul(n){
+			const [a, b] = [this.real, this.imag], [c, d] = [n.real, n.imag];
+			return new ComplexNumber(a * c - b * d, a * d + b * c);
+		}
+
+		div(n){
+			const [a, b] = [this.real, this.imag], [c, d] = [n.real, n.imag];
+			return new ComplexNumber(
+				(a * c + b * d)/(c * c + d * d),
+				(b * c - a * d)/(c * c + d * d));
+		}
+
+		get abs(){
+			return Math.sqrt(this.real ** 2 + this.imag ** 2);
+		}
+
+		get conj(){
+			return new ComplexNumber(this.real, 0 - this.imag);
+		}
+
+		get exp(){
+			const [a, b] = [this.real, this.imag];
+			return new ComplexNumber(Math.exp(a) * Math.cos(b), Math.exp(a) * Math.sin(b));
+		}
+	}
+</code></pre></div></div>
+
+<h2 id="work-experience">Work experience:</h2>
+<p>System administrator, polygraphic designer. I’ve never worked as a programmer except for freelance</p>
+
+<h2 id="education">Education:</h2>
+<p><strong>Yuzhno-Sakhalinsk State Institute,</strong> Bachelor of Mathematics and Informatics.</p>
+
+<p>I studied at <a href="https://www.coursera.org">Coursera.org</a>, <a href="https://stepik.org">Stepik.org</a>.</p>
+
+<p>I have obtained gold certificates in the following courses:</p>
+
+<ol>
+  <li>“Python programming”</li>
+  <li>“C/C++ multithread progamming”</li>
+  <li>“Linux Basic progamming”</li>
+  <li>“C++ progamming”</li>
+</ol>
+
+<h2 id="english">English:</h2>
+<p>I can read technical docs without dictionary. I can write, speak and understand listening a little bit worse.</p>
+
+<p>My level is between A2 and B1.</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
