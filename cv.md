@@ -11,11 +11,9 @@
 
 ## Code sample
 
-
 ```js
 console.log('Good news, everyone!');
 ```
-
 
 ## Languages
 

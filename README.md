@@ -1,6 +1,3 @@
 # rsschool-cv
 
-[Markdown CV] (https://progspectar.github.io/rsschool-cv/cv)
-
-
-
+[Markdown CV] (https://progspectar.github.io/rsschool-cv/)
