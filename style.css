@@ -81,29 +81,6 @@ a {
   font-size: 1.2rem;
 }
 
-.english ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding: 20px;
-  align-items: center;
-}
-
-.english li {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-weight: 700;
-  font-size: 1.2rem;
-  margin-right: 50px;
-}
-
-.english span {
-  margin-top: 10px;
-  font-weight: 400;
-}
-
 footer {
   display: flex;
   margin: 20px 0px;
